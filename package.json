@@ -1,5 +1,5 @@
 {
-  "name": "rpgoals",
+  "name": "Netflex",
   "version": "0.0.1",
   "description": "Gra przeglądarkowa pomagająca osiagać cele",
   "main": "index.js",
@@ -7,19 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://bitbucket.org/marpine/rpgoals.git"
+    "type": "git"
+    "url": "http://github.com/martinmountie/netflex.git"
   },
   "author": "Marpine",
   "license": "All rigths reserved",
-  "homepage": "https://bitbucket.org/marpine/rpgoals#readme",
   "devDependencies": {
     "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.1",
-    "http-server": "^0.11.1",
-    "ws": "3.3.2"
+    "gulp-sass": "^4.0.1"
   }
 }

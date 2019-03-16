@@ -23,24 +23,6 @@ html, body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
-.block {
-  -ms-flex-preferred-size: calc(25% - 30px);
-      flex-basis: calc(25% - 30px);
-  height: 200px;
-  color: #fff;
-  font-size: 30px;
-  margin: 15px; }
-  .block:nth-child(2), .block:nth-child(3) {
-    -ms-flex-preferred-size: calc(50% - 475px);
-        flex-basis: calc(50% - 475px); }
-  .block-static {
-    -ms-flex-preferred-size: 860px;
-        flex-basis: 860px; }
-  .block-inner {
-    background: #5c497e;
-    border-radius: 5px;
-    height: 100%; }
-
 .box {
   color: #fff;
   padding: 20px;

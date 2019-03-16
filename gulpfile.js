@@ -24,9 +24,6 @@ gulp.task("watch", function() {
 });
 
 gulp.task("browser-sync", function() {
-  // browserSync.init({
-  //   proxy: "localhost/rpgoals"
-  // });
   browserSync.init({
     server: {
       baseDir: "./"
